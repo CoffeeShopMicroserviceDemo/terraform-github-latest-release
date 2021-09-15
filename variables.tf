@@ -9,7 +9,7 @@ variable "gh_organization" {
   default = "CoffeeShopMicroserviceDemo"
 }
 
-variable "gh_repository" {
+variable "gh_repositories" {
   description = ""
-  type = string
+  type = list(string)
 }
